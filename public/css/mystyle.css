@@ -1,0 +1,1945 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* xs */
+@media(max-width: 575px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .nav-item{
+        margin-bottom: -10px;
+    }
+    .nav-link-txt{
+        color:white;
+        font-size: 18px;
+        /* margin-right: -150px; */
+        /* font-weight: 500; */
+        /* background-color: aqua; */
+    }
+    .logo{
+        display: inline;
+        margin-left: 0px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    *******************************
+    .search-input{
+        font-size: 18px;
+        /* border-radius: 65px !important; */
+        color: white;
+        outline-style: none;
+        border: none;
+        /* width: 500vh; */
+        /* text-align: center; */
+    }
+    .search-btn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px; 
+        background-color: rgb(0, 195, 255);
+        padding:7px 16px 7px 16px;
+        color: white;
+        margin-top: -67px;
+        margin-left: 380px;
+        border-radius: 0px 45px 45px 0px;
+    }
+
+    .sub-sech{
+        /* width: 60vh; */
+        /* text-align: center; */
+
+    }
+    .search-box{
+        margin-top: 12px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+    
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid orange;
+    }
+
+
+    .dropdown-menu{
+        /* margin-top: 45px; */
+        /* margin-left: -87.5vh; */
+        margin-right: 100vh;
+        background-color: #000022;
+        color: aliceblue;
+        /* text-align: end; */
+    }
+
+    .sub-tab{
+        /* width: 190vh !important; */
+    }
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        font-size: 16px;
+        display: block;
+        color: aliceblue;
+        border-bottom: 1px solid orange;
+    }
+    .image-section{
+        height: 45vh;
+        background: url('../images/AboutPage.jpg') top/cover no-repeat;
+    }
+
+    /* **********************************| Profile |******************************** */
+    .profile{
+        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+    }
+
+    .profile-body{
+        background-color: #031c4e;
+        opacity: 0.85;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .left-section{
+        /* background-color: rgb(90, 84, 79); */
+        font-size: 16px;
+        /* margin-right: 15px; */
+    }
+
+     .right-section{
+         /* background-color: darkcyan; */
+        padding-top: 5px;
+        font-size: 16px;
+        /* margin-left: 15px; */
+    }
+
+    .profile-txt{
+        font-size: 40px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-weight: 450;
+    }
+
+    .lists-info{
+        list-style-type: square;
+        margin-left: -22px;
+    }
+
+    .list{
+        color: white;
+        font-style: italic;
+        font-size: 16px;
+    }
+    
+     li{
+        color: rgb(55, 203, 248);
+    }
+
+    .vision-txt{
+        font-size: 25px;
+    }
+    
+    .vision-body{
+        font-size: 18px;
+    }
+
+    .mission-txt{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .mission-body{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    .hr-line{
+        border-bottom: 2px solid white;
+    }
+
+    /* Second Row */
+    .value{
+        /* background-color: darkgoldenrod; */
+    }
+
+    .value-sub{
+        /* background-color: darkgreen; */
+        padding-top: 0px;
+        font-size: 17px;
+    }
+
+    .value-txt{
+        font-size: 25px;
+        padding-top: 20px;
+    }  
+    
+    .prof-seperate{
+        color: rgb(4, 201, 250);
+        font-weight: 900;
+    }
+
+    .value-body{
+        font-size: 18px;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+
+    .business{
+        margin-top: 20px;
+        text-align: center;
+        /* margin-bottom: 10px; */
+        /* background-color: orange; */
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        /* margin-bottom: 150px; */
+    }
+
+    .card{
+        border: 1px solid ;
+        margin-top: 15px;
+    }
+    .card:hover{
+        background: #000022;
+        color: aliceblue;
+        animation-delay: 2s;
+        /* transition: width 9s linear 60s; */
+    }
+    .card img{
+        height: 20vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+    }
+      
+
+    .area-box-txt{
+        color: aliceblue;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
+    }
+
+    /* ****************************| Partners & Clients |************************ */
+    .rowAppearance{
+        display: none;
+    }
+    
+    /* visibility: hidden; */
+    .partner-client{
+        margin-top: 70px;
+        background-color: #000022;
+        color: aliceblue;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+    }
+
+    .partner-body2{
+        background-color: orange;
+    }
+
+    .contact-head, .partner-head, .client-head{
+        font-size: 32px;
+        border-bottom: 2px solid orange;
+    }
+    
+    /******** Contact ********/
+    .office{
+        font-size: 23px;
+        font-style: bold;
+    }
+
+    .ghana,.germany, .uk{
+        margin-top: 20px;
+    }
+
+    /******* Partners *******/
+    .partner-sub-title{
+        font-size: 23px;
+        font-style: bold;
+    }
+
+    .build, .acon, .joeamah{
+       margin-top: 20px;
+    }
+
+
+    /******** Clients *******/
+    .valued-client{
+        font-size: 23px;
+        font-style: bold;
+    }
+
+    .client-body{
+        margin-top: 20px;
+    }
+
+    .seperate{
+        color: rgb(40, 40, 252);
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot-txt{
+        /* padding-right: 30px; */
+        font-size: 15px;
+        /* background-color: orange; */
+        /* text-align: center; */
+    }
+
+    .foot-logo{
+        /* background-color: orchid; */
+        /* text-align: center; */
+        /* font-size: 25px; */
+        /* justify-content:right;  */
+        /* justify-items: flex-end; */
+    }
+}
+
+/* sm */
+@media(min-width: 576px) and (max-width:767px){
+   .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .nav-item{
+        margin-bottom: -10px;
+    }
+    .nav-link-txt{
+        color:white;
+        font-size: 18px;
+        /* margin-right: -150px; */
+        /* font-weight: 500; */
+        /* background-color: aqua; */
+    }
+    .logo{
+        display: inline;
+        margin-left: 0px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    *******************************
+    .search-input{
+        font-size: 18px;
+        /* border-radius: 65px !important; */
+        color: white;
+        outline-style: none;
+        border: none;
+        /* width: 500vh; */
+        /* text-align: center; */
+    }
+    .search-btn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px; 
+        background-color: rgb(0, 195, 255);
+        padding:7px 16px 7px 16px;
+        color: white;
+        margin-top: -67px;
+        margin-left: 380px;
+        border-radius: 0px 45px 45px 0px;
+    }
+
+    .sub-sech{
+        /* width: 60vh; */
+        /* text-align: center; */
+
+    }
+    .search-box{
+        margin-top: 12px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+    
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid orange;
+    }
+
+
+    .dropdown-menu{
+        /* margin-top: 45px; */
+        /* margin-left: -87.5vh; */
+        margin-right: 100vh;
+        background-color: #000022;
+        color: aliceblue;
+        /* text-align: end; */
+    }
+
+    .sub-tab{
+        /* width: 190vh !important; */
+    }
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        font-size: 16px;
+        display: block;
+        color: aliceblue;
+        border-bottom: 1px solid orange;
+    }
+    .image-section{
+        height: 45vh;
+        background: url('../images/AboutPage.jpg') top/cover no-repeat;
+    }
+
+    /* **********************************| Profile |******************************** */
+    .profile{
+        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+    }
+
+    .profile-body{
+        background-color: #031c4e;
+        opacity: 0.85;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .left-section{
+        /* background-color: rgb(90, 84, 79); */
+        font-size: 16px;
+        /* margin-right: 15px; */
+    }
+
+     .right-section{
+         /* background-color: darkcyan; */
+        padding-top: 5px;
+        font-size: 16px;
+        /* margin-left: 15px; */
+    }
+
+    .profile-txt{
+        font-size: 40px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-weight: 450;
+    }
+
+    .lists-info{
+        list-style-type: square;
+        margin-left: -22px;
+    }
+
+    .list{
+        color: white;
+        font-style: italic;
+        font-size: 16px;
+    }
+    
+     li{
+        color: rgb(55, 203, 248);
+    }
+
+    .vision-txt{
+        font-size: 25px;
+    }
+    
+    .vision-body{
+        font-size: 18px;
+    }
+
+    .mission-txt{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .mission-body{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+
+    .hr-line{
+        border-bottom: 2px solid white;
+    }
+
+    /* Second Row */
+    .value{
+        /* background-color: darkgoldenrod; */
+    }
+
+    .value-sub{
+        /* background-color: darkgreen; */
+        padding-top: 0px;
+        font-size: 17px;
+    }
+
+    .value-txt{
+        font-size: 25px;
+        padding-top: 20px;
+    }  
+    
+    .prof-seperate{
+        color: rgb(4, 201, 250);
+        font-weight: 900;
+    }
+
+    .value-body{
+        font-size: 18px;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+
+    .business{
+        margin-top: 20px;
+        text-align: center;
+        /* margin-bottom: 10px; */
+        /* background-color: orange; */
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        /* margin-bottom: 150px; */
+    }
+
+    .card{
+        border: 1px solid ;
+        margin-top: 15px;
+    }
+    .card:hover{
+        background: #000022;
+        color: aliceblue;
+        animation-delay: 2s;
+        /* transition: width 9s linear 60s; */
+    }
+    .card img{
+        height: 20vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+    }
+      
+
+    .area-box-txt{
+        color: aliceblue;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
+    }
+
+    /* ****************************| Partners & Clients |************************ */
+    .rowAppearance{
+        display: none;
+    }
+    .partner-client{
+        margin-top: 60px;
+    }
+
+    .Partners{
+        /* background-color: rgb(5, 5, 85); */
+        background-color: #000022;
+        color:rgb(5, 5, 85);
+    }
+
+    .partner-body{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .partner-txt{
+        color: aliceblue;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 20px;
+    }
+
+    .build img{
+        margin-left: 30px;
+        /* margin-right: 30px; */
+        width: 180px;
+        height: 50px;
+        background-color: #fff;
+        margin-top: 15px;
+    }
+    .acon img{
+        background-color: aliceblue;
+        margin-left: 20px;
+        margin-right: 20px;
+         width: 180px;
+        height: 50px;
+        padding-top: 5px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .joeamah img{
+        /* margin-left: 30px; */
+        margin-right: 30px;
+         width: 180px;
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    .build, .acon, .joeamah{
+        text-align: center;
+    }
+
+    .clients{
+        background-color: #000022;
+        color:aliceblue;
+    }
+
+    .clients-txt{
+    color: aliceblue;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .client-body{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .food,.kisr,.estate, .knust{
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
+        /* padding: 30px; */
+        text-align: center;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .clean, .sol, .fichtner, .impact{
+        /* margin-left: 15px;
+        margin-right: 15px; */
+        /* padding: 30px; */
+        text-align: center;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot-txt{
+        /* padding-right: 30px; */
+        font-size: 17px;
+        /* background-color: orange; */
+        /* text-align: center; */
+    }
+
+    .foot-logo{
+        /* background-color: orchid; */
+        /* text-align: center; */
+        /* font-size: 25px; */
+        /* justify-content:right;  */
+        /* justify-items: flex-end; */
+    } 
+}
+
+/* md */
+@media(min-width: 768px) and (max-width:991px){
+    .navbar-toggler{
+        border-color: white;
+    }
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .nav-item{
+        margin-bottom: -10px;
+    }
+    .nav-link-txt{
+        color:white;
+        font-size: 18px;
+        /* margin-right: -150px; */
+        /* font-weight: 500; */
+        /* background-color: aqua; */
+    }
+    .logo{
+        display: inline;
+        margin-left: 30px;
+    }
+
+    .logo img{
+        height: 50px;
+    }
+
+    .search-input{
+        font-size: 18px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+        /* text-align: center; */
+    }
+    .search-btn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px; 
+        background-color: rgb(0, 195, 255);
+        padding:7px 16px 7px 16px;
+        color: white;
+        margin-top: -42px;
+        margin-left: -15px;
+        border-radius: 0px 45px 45px 0px;
+    }
+
+    .sub-sech{
+        width: 100vh;
+        /* text-align: center; */
+
+    }
+    .search-box{
+        margin-top: 12px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+    
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid white;
+    }
+
+
+    .dropdown-menu{
+        margin-top: 5px;
+        /* margin-left: -27.5vh; */
+        margin-right: 100vh;
+        background-color: #000022;
+        color: aliceblue;
+        /* text-align: end; */
+    }
+
+    .sub-tab{
+        /* width: 3000vh !important; */
+    }
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid #000022;
+    }
+    .image-section{
+        height: 55vh;
+        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+    }
+
+    /* **********************************| Profile |******************************** */
+    .profile{
+        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+    }
+
+    .profile-body{
+        background-color: #031c4e;
+        opacity: 0.7;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .profile-txt{
+        font-size: 45px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 550;
+    }
+
+    .left-section{
+        padding-top: 50px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* background-color: aqua; */
+        /* text-align: justify; */
+        box-sizing: border-box;
+        /* border-bottom: 2px solid white; */
+    }
+
+    .right-section{
+        padding-top: 0px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* border-bottom: 2px solid white; */
+    }
+
+    .lists-info{
+        list-style-type: square;
+        margin-left: -25px;
+    }
+
+    li{
+        margin-bottom: 5px;
+        color: rgb(55, 203, 248);
+    }
+    .list{
+        color: white;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    .hr-line{
+        border-top: 3px solid white;
+    }
+
+    .value-txt, .vision-txt, .mission-txt{
+        font-size: 30px;margin-left: 25px;
+    }
+
+    .value{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .value-body, .vision-body, .mission-body{
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /* *******************| Vision Mission & Value |***************** */
+    .statements{
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 32px;
+    }
+
+    .vision{
+        background-color: #031c4e;
+        color: white;
+        padding: 25px 25px;
+        margin-left: -25px;
+        margin-top: -30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .mission{
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .miss{
+        /* background-color: rgb(5, 5, 85); */
+        background-color:#031c4e;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 25px 25px;
+    }
+
+    .values{
+        background-color:#031c4e;
+        color: white;
+        padding: 25px 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .fa-caret-down, .fa-caret-up{
+        margin-left: 5px;
+        font-size: 21px;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+
+    .business{
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 20px;
+        /* background-color: orange; */
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 100px;
+    }
+
+
+    .infrastructure-box{
+        text-align: center;
+        height: 60vh;
+        background: url('../images/AERIAL VIEW TOWARDS THE ENTRANCE.jpg') center/cover no-repeat;
+    }
+
+    .architecture-box{
+        text-align: center;
+        height: 60vh;
+        margin-top: 20px;
+        background: url('../images/AERIAL VIEW TOWARDS CHAPEL.jpg') center/cover no-repeat;
+    }
+
+    .build-box{
+        text-align: center;
+        height: 60vh;
+        background: url('../images/2.RGB_color final.jpg') center/cover no-repeat;
+    }
+
+    .planning-box{
+        text-align: center;
+        height: 60vh;
+        margin-top: 20px;
+        background: url('../images/3.RGB_color final.jpg') center/cover no-repeat;
+    }
+
+    .area-box-txt{
+        color: aliceblue;
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+        font-size: 2.8rem;
+        font-weight: 600;
+        /* background-color: orange; */
+    }
+
+    .area-color{
+        /* background-color: black; */
+        opacity: 1;
+        /* color: white; */
+    }
+
+    .area-box-txt:hover{
+        color: aliceblue;
+        font-size: 3.7rem;
+        font-weight: 600;
+        opacity: 0.6;
+        background-color: #000022;
+    }
+
+    /* ****************************| Partners & Clients |************************ */
+    .partner-client{
+        margin-top: 60px;
+    }
+
+    .Partners{
+        /* background-color: rgb(5, 5, 85); */
+        background-color: #000022;
+        color:rgb(5, 5, 85);
+    }
+
+    .partner-body{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .partner-txt{
+        color: aliceblue;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 20px;
+    }
+
+    .build img{
+        margin-left: 30px;
+        /* margin-right: 30px; */
+        width: 180px;
+        height: 50px;
+        background-color: #fff;
+        margin-top: 15px;
+    }
+    .acon img{
+        background-color: aliceblue;
+        margin-left: 20px;
+        margin-right: 20px;
+         width: 180px;
+        height: 50px;
+        padding-top: 5px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .joeamah img{
+        /* margin-left: 30px; */
+        margin-right: 30px;
+         width: 180px;
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    .build, .acon, .joeamah{
+        text-align: center;
+    }
+
+    .clients{
+        background-color: #000022;
+        color:aliceblue;
+    }
+
+    .clients-txt{
+    color: aliceblue;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .client-body{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .food,.kisr,.estate, .knust{
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
+        /* padding: 30px; */
+        text-align: center;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .clean, .sol, .fichtner, .impact{
+        /* margin-left: 15px;
+        margin-right: 15px; */
+        /* padding: 30px; */
+        text-align: center;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot-txt{
+        /* padding-right: 30px; */
+        font-size: 17px;
+        /* background-color: orange; */
+        /* text-align: center; */
+    }
+
+    .foot-logo{
+        /* background-color: orchid; */
+        /* text-align: center; */
+        /* font-size: 25px; */
+        /* justify-content:right;  */
+        /* justify-items: flex-end; */
+    } 
+}
+
+/* lg */
+@media(min-width: 992px) and (max-width:1199px){
+    .navbar-toggler{
+        border-color: white;
+    }
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .nav-item{
+        margin-bottom: -10px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 18px;
+        /* margin-right: -150px; */
+        /* font-weight: 500; */
+        /* background-color: aqua; */
+    }
+    .logo{
+        display: inline;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    .logo img{
+        height: 55px;
+    }
+
+    .search-input{
+        font-size: 18px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+        margin-bottom: -30px;
+        /* text-align: center; */
+    }
+    .search-btn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px; 
+        background-color: rgb(0, 195, 255);
+        padding:7px 16px 7px 16px;
+        color: white;
+        margin-top: -11px !important;
+        margin-left: 150px;
+        border-radius: 0px 45px 45px 0px;
+    }
+
+    .sub-sech{
+        width: 0vh;
+        /* text-align: center; */
+
+    }
+    .search-box{
+        margin-top: 12px;
+        width: 33vh;
+        /* display: inline-block; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+    
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid white;
+    }
+
+
+    .dropdown-menu{
+        margin-top: 5px;
+        margin-left: -73.5vh;
+        /* margin-right: 100vh; */
+        background-color:  #0c7ad0;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .sub-tab{
+        width: 200vh !important;
+    }
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+    .image-section{
+        height: 70vh;
+        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+    }
+
+    /* **********************************| Profile |******************************** */
+    .profile{
+        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+    }
+
+    .profile-body{
+        background-color: #031c4e;
+        opacity: 0.7;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .profile-txt{
+        font-size: 45px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 550;
+    }
+
+    .left-section{
+        padding-top: 50px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* background-color: aqua; */
+        /* text-align: justify; */
+        box-sizing: border-box;
+        /* border-bottom: 2px solid white; */
+    }
+
+    .right-section{
+        padding-top: 0px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* border-bottom: 2px solid white; */
+    }
+
+    .lists-info{
+        list-style-type: square;
+        margin-left: -25px;
+    }
+
+    li{
+        margin-bottom: 5px;
+        color: rgb(55, 203, 248);
+    }
+    .list{
+        color: white;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    .hr-line{
+        border-top: 3px solid white;
+    }
+
+    .value-txt, .vision-txt, .mission-txt{
+        font-size: 30px;margin-left: 25px;
+    }
+
+    .value{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .value-body, .vision-body, .mission-body{
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /* *******************| Vision Mission & Value |***************** */
+    .statements{
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 32px;
+    }
+
+    .vision{
+        background-color: #031c4e;
+        color: white;
+        padding: 25px 25px;
+        margin-left: -25px;
+        margin-top: -30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .mission{
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .miss{
+        /* background-color: rgb(5, 5, 85); */
+        background-color:#031c4e;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 25px 25px;
+    }
+
+    .values{
+        background-color:#031c4e;
+        color: white;
+        padding: 25px 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .fa-caret-down, .fa-caret-up{
+        margin-left: 5px;
+        font-size: 21px;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+
+    .business{
+        margin-top: 80px;
+        text-align: center;
+        margin-bottom: 20px;
+        /* background-color: orange; */
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 600;
+        margin-bottom: 100px;
+    }
+
+
+    .infrastructure-box{
+        text-align: center;
+        height: 80vh;
+        background: url('../images/AERIAL VIEW TOWARDS THE ENTRANCE.jpg') center/cover no-repeat;
+    }
+
+    .architecture-box{
+        text-align: center;
+        height: 80vh;
+        margin-top: 30px;
+        background: url('../images/AERIAL VIEW TOWARDS CHAPEL.jpg') center/cover no-repeat;
+    }
+
+    .build-box{
+        text-align: center;
+        height: 80vh;
+        background: url('../images/2.RGB_color final.jpg') center/cover no-repeat;
+    }
+
+    .planning-box{
+        text-align: center;
+        height: 80vh;
+        margin-top: 30px;
+        background: url('../images/3.RGB_color final.jpg') center/cover no-repeat;
+    }
+
+    .area-box-txt{
+        color: aliceblue;
+        padding-top: 30vh;
+        padding-bottom: 10vh;
+        font-size: 3.4rem;
+        font-weight: 600;
+        /* background-color: orange; */
+    }
+
+    .area-color{
+        /* background-color: black; */
+        opacity: 1;
+        /* color: white; */
+    }
+
+    .area-box-txt:hover{
+        color: aliceblue;
+        font-size: 3.7rem;
+        font-weight: 600;
+        opacity: 0.6;
+        background-color: #000022;
+    }
+
+    /* ****************************| Partners & Clients |************************ */
+    .partner-client{
+        margin-top: 70px;
+    }
+
+    .Partners{
+        /* background-color: rgb(5, 5, 85); */
+        background-color: #000022;
+        color:rgb(5, 5, 85);
+    }
+
+    .partner-body{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .partner-txt{
+        color: aliceblue;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 20px;
+    }
+
+    .build img{
+        margin-left: 30px;
+        /* margin-right: 30px; */
+        width: 240px;
+        height: 70px;
+        background-color: #fff;
+        margin-top: 15px;
+    }
+    .acon img{
+        background-color: aliceblue;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 240px;
+        height: 70px;
+        padding-top: 5px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .joeamah img{
+        /* margin-left: 30px; */
+        margin-right: 30px;
+        width: 240px;
+        height: 70px;
+        margin-top: 15px;
+    }
+
+    .build, .acon, .joeamah{
+        text-align: center;
+    }
+
+    .clients{
+        background-color: #000022;
+        color:aliceblue;
+    }
+
+    .clients-txt{
+    color: aliceblue;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .client-body{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .food,.kisr,.estate, .knust{
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
+        /* padding: 30px; */
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .clean, .sol, .fichtner, .impact{
+        /* margin-left: 15px;
+        margin-right: 15px; */
+        /* padding: 30px; */
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot-txt{
+        /* padding-right: 30px; */
+        font-size: 17px;
+        /* background-color: orange; */
+        /* text-align: center; */
+    }
+
+    .foot-logo{
+        /* background-color: orchid; */
+        /* text-align: center; */
+        /* font-size: 25px; */
+        /* justify-content:right;  */
+        /* justify-items: flex-end; */
+    } 
+}
+
+/* xl */
+@media(min-width: 1200px) {
+    
+.sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 17px;
+        margin-right: 25px;
+        /* font-weight: 500; */
+        /* background-color: aqua; */
+    }
+    .logo{
+        display: inline;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .logo img{
+        height: 45px;
+    }
+
+    .nav-active {
+        color: orange;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+    .dropdown-menu{
+        /* margin-top: 5px; */
+        margin-left: -97.9vh;
+        /* margin-right: 100vh; */
+        background-color:  #0c7ad0;
+        color: aliceblue;
+        text-align: center;
+    }
+
+     .sub-tab{
+        width: 250vh !important;
+    }
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+
+    .hover-link a{
+        margin-right: 40px;
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+        /* margin-bottom: -30px; */
+        /* text-align: center; */
+    }
+    .search-btn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px; 
+        background-color: rgb(0, 195, 255);
+        padding:7px 16px 7px 16px;
+        color: white;
+        margin-top: -11px !important;
+        margin-left: 150px;
+        border-radius: 0px 45px 45px 0px;
+    }
+
+    .sub-sech{
+        /* width: 0vh; */
+        /* text-align: center; */
+
+    }
+    .search-box{
+        margin-top: 12px;
+        width: 33vh;
+        /* display: inline-block; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+    
+    
+
+   
+    .image-section{
+        height: 60vh;
+        background: url('../images/AboutPage.jpg') top/cover no-repeat;
+    }
+
+    /* **********************************| Profile |******************************** */
+    .profile{
+        background: url('../images/AERIAL VIEW OF ASHRICH DEVELOPMENT TRAINING CENTRE.jpg') center/cover no-repeat;
+    }
+
+    .profile-body{
+        background-color: #031c4e;
+        opacity: 0.85;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+
+    .left-section{
+        /* background-color: rgb(90, 84, 79); */
+        padding-top: 0px;
+        font-size: 18px;
+        margin-right: 15px;
+    }
+
+     .right-section{
+         /* background-color: darkcyan; */
+        padding-top: 68px;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .profile-txt{
+        font-size: 50px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-weight: 550;
+    }
+
+    .lists-info{
+        list-style-type: square;
+    }
+
+    .list{
+        color: white;
+        font-style: italic;
+        font-size: 18px;
+    }
+    
+     li{
+        color: rgb(55, 203, 248);
+    }
+
+    .vision-txt{
+        font-size: 25px;
+    }
+    
+    .vision-body{
+        font-size: 18px;
+    }
+
+    .mission-txt{
+        font-size: 25px;
+        padding-top: 60px;
+    }
+
+    .mission-body{
+        font-size: 18px;
+    }
+
+    .hr-line{
+        border-bottom: 2px solid white;
+    }
+
+    /* Second Row */
+    .value{
+        /* background-color: darkgoldenrod; */
+        margin-right: 15px;
+    }
+
+    .value-sub{
+        /* background-color: darkgreen; */
+        margin-left: 15px;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+
+    .value-txt{
+        font-size: 25px;
+        padding-top: 20px;
+    }  
+    
+    .prof-seperate{
+        color: rgb(4, 201, 250);
+        font-weight: 900;
+    }
+
+    .value-body{
+        font-size: 18px;
+    }
+
+   
+    /* ***********************| Business Areas | ********************** */
+    .business{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+        /* background-color: orange; */
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        /* margin-bottom: 150px; */
+    }
+
+    .card{
+        border: 1px solid ;
+    }
+    .card:hover{
+        background: #000022;
+        color: aliceblue;
+        animation-delay: 2s;
+        /* transition: width 9s linear 60s; */
+    }
+    .card img{
+        height: 30vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 23px;
+        text-align: center;
+        font-weight: 600;
+    }
+      
+
+    .area-box-txt{
+        color: aliceblue;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
+    }
+
+    /* ****************************| Partners & Clients |************************ */
+    .dropAppearance{
+        display: none;
+    }
+    .partner-client{
+        margin-top: 25px;
+        /* background-color: #000022; */
+        /* color: aliceblue; */
+        color: black;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+    }
+
+    /* .partner-head{
+        font-size: 32px;
+        border-bottom: 2px solid orange;
+        text-align: center;
+    } */
+
+     .partner-body{
+         text-align: right;
+         /* margin-top: 60px; */
+        /* background-color: green; */
+    }
+     .partner-body2{
+         /* text-align: right; */
+         /* margin-top: 69px; */
+        /* background-color: orange; */
+    }
+
+    
+    .contact-head, .partner-head, .client-head{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center !important;
+        /* background-color: chocolate; */
+        display: block;
+        margin: auto;
+        width: 250px;
+        border-bottom: 2px solid orange;
+    }
+    
+    /******** Contact ********/
+    
+
+    /******* Partners *******/
+    .partner-sub-title{
+        font-size: 23px;
+        font-style: bold;
+    }
+
+    .build, .acon, .joeamah{
+       margin-top: 20px;
+    }
+
+
+    /******** Clients *******/
+    .valued-client{
+        font-size: 23px;
+        font-style: bold;
+    }
+
+    .client-body{
+        margin-top: 20px;
+    }
+
+    .seperate{
+        color: rgb(40, 40, 252);
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+    }
+
+    .foot-txt{
+        font-size: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    } 
+}
+
+
