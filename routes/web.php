@@ -23,3 +23,6 @@ Route::get('/', function () {
 Route::get('/test', function(){
 	return view('pages.paralax');
 });
+// Route::get('/test', function(){
+// 	return view('pages.paralax');
+// });
