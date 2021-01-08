@@ -23,7 +23,7 @@
               <img src="{{url('/').'/images/twitter-web.png'}}" width="20px" height="20px">
             </div>
             <div class="col-md-4 name">
-              <p>Prof. Assasie</p>
+              <p>Prof. Assasie One</p>
             </div>
             <div class="col-md-4 name">
               <form>
