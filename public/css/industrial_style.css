@@ -1,0 +1,194 @@
+html, body {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+max-width: 100%;
+overflow-x: hidden;
+background-color: #E7EBF0;
+}
+
+/* ****************************** */
+
+.sub-head{
+background-color: #000022;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.nav-link-txt{
+color:white;
+font-size: 17px;
+margin-right: 25px;
+/* font-weight: 500; */
+/* background-color: aqua; */
+}
+.logo{
+display: inline;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.logo img{
+height: 45px;
+}
+
+.nav-active {
+color: orange;
+border-bottom: 1px solid orange !important;
+}
+.nav-item a{
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+color: aliceblue;
+border-bottom: 1px solid black;
+}
+
+.nav-item a:hover{
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+border-bottom: 1px solid orange;
+}
+.dropdown-menu{
+/* margin-top: 5px; */
+margin-left: -97.9vh;
+/* margin-right: 100vh; */
+background-color: #0c7ad0;
+color: aliceblue;
+text-align: center;
+}
+
+.sub-tab{
+width: 250vh !important;
+}
+
+.hover-tab{
+background-color: #0c7ad0;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+margin-top: 10px;
+/* margin-left: 350px; */
+}
+
+.hover-link a{
+margin-right: 40px;
+font-size: 16px;
+/* display: block; */
+color: aliceblue;
+border-bottom: 1px solid #0c7ad0;
+}
+
+.search-input{
+font-size: 15px;
+border-radius: 45px;
+color: white;
+outline-style: none;
+border: none;
+/* margin-bottom: -30px; */
+/* text-align: center; */
+}
+.search-btn{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+background-color: rgb(0, 195, 255);
+padding:7px 16px 7px 16px;
+color: white;
+margin-top: -11px !important;
+margin-left: 150px;
+border-radius: 0px 45px 45px 0px;
+}
+
+.sub-sech{
+/* width: 0vh; */
+/* text-align: center; */
+
+}
+.search-box{
+margin-top: 12px;
+width: 33vh;
+/* display: inline-block; */
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.fa-search{
+font-size: 22px;
+}
+
+/* *********************| Infrastructure Planning |****************** */
+.business-txt{
+color: #031c4e;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+font-weight: 600;
+display: block;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+/* ***************| Infrastructure Profile |*************** */
+.body-section{
+margin-left: 50px;
+margin-right: 50px;
+}
+.left-profile{
+height: 70vh;
+background: url('../images/landscape\ Plan.jpg') top/cover no-repeat;
+}
+.right-profile{
+/* background-color: orange; */
+padding-left: 25px;
+/* padding-right: 25px; */
+}
+
+.profile-txt{
+font-size: 20px;
+font-weight: 600;
+color: black;
+}
+
+.profile-body{
+font-size: 18px;
+padding-bottom: 20px;
+}
+
+/* ************************| Projects |******************** */
+.projects{
+margin-top: 45px;
+margin-bottom: 25px;
+}
+.project-txt{
+color: #031c4e;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 45px;
+font-weight: 600;
+margin-top: 50px;
+/* display: block; */
+/* background-color: brown; */
+}
+
+.card-img img{
+padding: 5px;
+}
+
+
+/* ************************| Footer |******************** */
+.foot{
+background-color:#001744;
+color: aliceblue;
+}
+
+.foot-txt{
+font-size: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.foot-logo{
+margin-top: 4px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
