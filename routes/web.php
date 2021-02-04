@@ -23,3 +23,15 @@ Route::get('/', function () {
 Route::get('/test', function(){
 	return view('pages.paralax');
 });
+
+Route::get('/publications', function(){
+	return view('pages.publication');
+});
+
+Route::get('/projects', function(){
+	return view('pages.project');
+});
+
+Route::get('/contacts', function(){
+	return view('pages.contact');
+});

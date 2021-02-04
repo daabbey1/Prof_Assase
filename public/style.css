@@ -28,8 +28,8 @@
 	background-color: #141d26 !important;
 }
 .form-control{
-	border:0 !important;
-	text-align: right;
+	
+	text-align: left;
 }
 .navbar-nav a{
 	padding-right: 50px !important;
@@ -44,6 +44,14 @@
 }
 .caro-desc{
 	text-align: left;
+	font-size: 20px;
+
+}
+
+.caro-desc1{
+	background-color: black;
+	opacity: 0.8;
+	padding: 20px;
 	font-size: 20px;
 }
 
@@ -150,6 +158,75 @@
 }
 
 .footer a{
-	text=text-decoration: none;
+	text-decoration: none;
 	color: white
+}
+.books-outline{
+	
+	min-height: 150px;
+	box-shadow: 0px 2px 10px 1.5px rgba(0,0,0,0.24);
+	padding: 10px;
+	
+	
+}
+/*.books-outline:before{
+	position: relative;
+	transform-origin: right;
+	transition: 0.5s;
+	transform: scaleX(0);
+}*/
+
+.num{
+	background-color: #e2a828;
+	padding: 15px;
+	box-shadow: 0px 2px 10px 1.5px rgba(0,0,0,0.24);
+	color: white;
+	font-weight: bold;
+}
+
+.num-journal{
+	background-color: #141d26;
+	padding: 15px;
+	box-shadow: 0px 2px 10px 1.5px rgba(0,0,0,0.24);
+	color: white;
+	font-weight: bold;
+}
+
+.pub-title{
+	background-color: #e2a828;
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.jour-title{
+	background-color: #141d26;
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.books-outline:hover{
+	background-color: #e2a828;	
+}
+.scholar{
+	background-image: url('images/IMG_4599.jpg');
+	background-size: cover;
+	height: auto;
+	overflow: hidden;
+	background-attachment: fixed;
+
+}
+
+.project-outline{
+	box-shadow: 0px 2px 10px 1.5px rgba(0,0,0,0.24);
+	padding: 10px;
+	background-color: white;
+	opacity: 0.9;
+}
+
+.project-outline:hover{
+	opacity: 1;
 }

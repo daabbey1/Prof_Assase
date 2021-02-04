@@ -42,12 +42,12 @@
 
                 <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                   <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link">Home</a>
+                    <a href="/" class="nav-item nav-link">Home</a>
                     <a href="#" class="nav-item nav-link">About</a>
                     
-                    <a href="#" class="nav-item nav-link">Projects</a>
-                    <a href="#" class="nav-item nav-link">Publications</a>
-                    <a href="#" class="nav-item nav-link">Contact</a>
+                    <a href="/projects" class="nav-item nav-link">Projects</a>
+                    <a href="/publications" class="nav-item nav-link">Publications</a>
+                    <a href="/contacts" class="nav-item nav-link">Contact</a>
                   </div>
         
                  </div>
@@ -147,11 +147,11 @@
         <div class="col-md-4 col-sm-4 col-xs-6">
           <h5>Navigation</h5>
           <div class="navigation-links">
-            <div class="single-nav-link"><a href="#">Home</a></div>
+            <div class="single-nav-link"><a href="/">Home</a></div>
             <div class="single-nav-link"><a href="#">About</a></div>
-            <div class="single-nav-link"><a href="#">Projects</a></div>
-            <div class="single-nav-link"><a href="#">Publications</a></div>
-            <div class="single-nav-link"><a href="#">Contact</a></div>
+            <div class="single-nav-link"><a href="/projects">Projects</a></div>
+            <div class="single-nav-link"><a href="/publications">Publications</a></div>
+            <div class="single-nav-link"><a href="/contacts">Contact</a></div>
           </div>
         </div>
         <div class="col-md-4">
@@ -196,7 +196,7 @@
           <a href="#">About</a>
           <a href="#">Privacy</a>
           <a href="#">FAQ</a>
-          <a href="#">Contact</a>
+          <a href="/contacts">Contact</a>
         </div>
       </div>
     </div>
