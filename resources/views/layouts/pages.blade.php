@@ -4,7 +4,8 @@
  <title> @yield('title')</title>
   <meta charset="utf-8">
 <!--   <link href="{{url('/'). '/style.css'}}"> -->
-<link rel="stylesheet" type="text/css" href="{{asset('style.css')}}">
+{{-- <link rel="stylesheet" type="text/css" href="{{asset('style.css')}}"> --}}
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="{{url('/').'/css/font.css'}}">
   <link rel="stylesheet" href="{{url('/').'/bootstrap-4/css/bootstrap.min.css'}}">
@@ -16,7 +17,7 @@
     <div class="container-fluid">
       <div class="row top">
         <div class="container-fluid top-content">
-          <div class="row" style="padding: 10px">
+          <div class="row" style="padding-top: 10px">
             <div class="col-md-4 social">
               <img src="{{url('/').'/images/fbweb.png'}}" width="20px" height="20px">
               <img src="{{url('/').'/images/ig-web.png'}}" width="20px" height="20px">
@@ -35,7 +36,7 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="padding: 20px;">
+              <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="padding: 0 20px;">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                   <span class="navbar-toggler-icon"></span>
                 </button>

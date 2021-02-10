@@ -5,7 +5,7 @@
 <div>
 	<div class="row">
             <!--carousel from another file -->
-            <div class="row">
+            <div class="row hero">
                 <div class="col-md-8">
                   <div class="carousel-layout">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -16,8 +16,8 @@
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                   <!-- Slide One - Set the background image for this slide in the line below -->
-                                  <div class="carousel-item active">
-                                    <img src="{{url('/').'/images/11academics.jpg'}}" style="opacity: 0.9" width="100%" height="100%">
+                                  <div class="carousel-item active bg-inf">
+                                    <img src="{{url('/').'/images/publications.jpg'}}" style="opacity: 0.9" width="100%" height="100%">
                                     <div class="carousel-caption d-none d-md-block">
                                      <!--  <h4 > <span class="head-desc">SDG4UNiS</span></h4>
                                       <p class="caro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p> -->
@@ -39,25 +39,37 @@
                 </div>
 
                 <div class="col-md-4">
-                  <div class="row" style="margin-top: 0">
-                    <div class="col-md-12">
-                      <img src="{{url('/').'/images/1books.jpg'}}" width="100%" height="70%">
-                      <span class="" style="color: black">Books</span>
-                    </div>
+                  <div class="left-side">
+                      <div class="row " style="margin-top: 0">
+                        <div class="col-md-12">
+                            <a href="#book">
+                                <div class="left-side-box">
+                                    <img src="{{url('/').'/images/1books.jpg'}}" width="100%" height="70%">
+                                    <span class="left-side-txt" style="color: black">Books</span>
+                                 </div>
+                            </a>
+                        </div>
                     
-                  </div>
-                  <div class="row" style="margin-top:-10%">
-                    <div class="col-md-12">
-                       <img src="{{url('/').'/images/books.jpg'}}" width="100%" height="70%">
-                      <span class="" style="color: black">journal Articles</span>
-                      <!-- <img src="{{url('/').'/images/st.jpg'}}" width="100%" height="100%"> -->
                     </div>
-                  </div>
-                  <div class="row" style="margin-top:-10%">
-                    <div class="col-md-12">
-                       <img src="{{url('/').'/images/books.jpg'}}" width="100%" height="70%">
-                      <span class="" style="color: black">Conference Paper</span>	
-                      <!-- <img src="{{url('/').'/images/st.jpg'}}" width="100%" height="100%"> -->
+                    <div class="row" style="margin-top:-10%">
+                        <div class="col-md-12">
+                            <a href="#journal">
+                                <div class="left-side-middle-box">
+                                        <img src="{{url('/').'/images/books.jpg'}}" width="100%" height="70%">
+                                        <span class="left-side-txt" style="color: black">Journal Articles</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:-10%">
+                        <div class="col-md-12">
+                            <a href="#conference-papers">
+                                <div class="left-side-box">
+                                        <img src="{{url('/').'/images/conference.jpg'}}" width="100%" height="70%">
+                                        <span class="left-side-txt" style="color: black">Conference Paper</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -68,7 +80,7 @@
             
           </div>
 
-     <div class="parent-pub-title">
+     {{-- <div class="parent-pub-title">
      		<p class="pub-title">BOOKS</p>
      	</div>
      <div class="row">
@@ -116,11 +128,11 @@
      			</div>
      		</div>
      	</div>
-     </div>
+     </div> --}}
 
 
      <!-- row2 -->
-     <div class="row" style="margin-top: 50px">
+     {{-- <div class="row" style="margin-top: 50px">
      	
      	<div class="col-md-3">
      		<div class="books-outline">
@@ -163,11 +175,11 @@
      			</div>
      		</div>
      	</div>
-     </div>
+     </div> --}}
 
 
      <!-- row3 -->
-      <div class="row" style="margin-top: 50px">
+      {{-- <div class="row" style="margin-top: 50px">
      	
      	<div class="col-md-3">
      		<div class="books-outline">
@@ -201,7 +213,7 @@
      		</div>
      	</div>
      	
-     </div>
+     </div> --}}
 
 
 
@@ -211,10 +223,10 @@
 
 
      <!--- journal articles -->
-          <div class="parent-jour-title" style="margin-top: 50px">
+          {{-- <div class="parent-jour-title" style="margin-top: 50px">
             <p class="jour-title">JOURNAL ARTICLES</p>
-        </div>
-     <div class="row">
+        </div> --}}
+     {{-- <div class="row">
         
         <div class="col-md-3">
             <div class="books-outline">
@@ -257,11 +269,11 @@
                 </div>
             </div>
         </div>
-     </div>
+     </div> --}}
 
 
      <!-- row2 -->
-     <div class="row" style="margin-top: 50px">
+     {{-- <div class="row" style="margin-top: 50px">
         
         <div class="col-md-3">
             <div class="books-outline">
@@ -304,11 +316,11 @@
                 </div>
             </div>
         </div>
-     </div>
+     </div> --}}
 
 
      <!-- row3 -->
-      <div class="row" style="margin-top: 50px">
+      {{-- <div class="row" style="margin-top: 50px">
         
         <div class="col-md-3">
             <div class="books-outline">
@@ -344,15 +356,15 @@
 
 
         
-     </div>
+     </div> --}}
 
 
 
       <!--- conference paper  -->
-          <div class="parent-pub-title" style="margin-top: 50px">
+          {{-- <div class="parent-pub-title" style="margin-top: 50px">
             <p class="pub-title">CONFERENCE PAPER</p>
-        </div>
-     <div class="row">
+        </div> --}}
+     {{-- <div class="row">
         
         <div class="col-md-3">
             <div class="books-outline">
@@ -395,11 +407,11 @@
                 </div>
             </div>
         </div>
-     </div>
+     </div> --}}
 
 
      <!-- row2 -->
-     <div class="row" style="margin-top: 50px">
+     {{-- <div class="row" style="margin-top: 50px">
         
         <div class="col-md-3">
             <div class="books-outline">
@@ -442,47 +454,43 @@
                 </div>
             </div>
         </div>
-     </div>
+     </div> --}}
 
 
      <!-- row3 -->
-      <div class="row" style="margin-top: 50px">
-        
-        <div class="col-md-3">
-            <div class="books-outline">
-                <span class="num">9.</span>
-                <div style="padding:20px;">
-                    <h5>Building Safer Cities: Assessing Green Infrastructure for Storm Water Management at Kwame Nkrumah Interchange, Accra</h5>
-                    <p style="color: grey">H. S. Abdul-Hamid, R. A. Oppong and K. A. Gyimah (2017)</p>
-                    <p>A Paper delivered at the 6th International Conference on Infrastructure Development in Africa (ICIDA)2017 held on   12th -14th April 2017, at KNUST, Kumasi, Ghana. </p>
+      {{-- <div class="row" style="margin-top: 50px">
+            <div class="col-md-3">
+                <div class="books-outline">
+                    <span class="num">9.</span>
+                    <div style="padding:20px;">
+                        <h5>Building Safer Cities: Assessing Green Infrastructure for Storm Water Management at Kwame Nkrumah Interchange, Accra</h5>
+                        <p style="color: grey">H. S. Abdul-Hamid, R. A. Oppong and K. A. Gyimah (2017)</p>
+                        <p>A Paper delivered at the 6th International Conference on Infrastructure Development in Africa (ICIDA)2017 held on   12th -14th April 2017, at KNUST, Kumasi, Ghana. </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="books-outline">
-                <span class="num">10.</span>
-                <div style="padding:20px;">
-                    <h5>The Challenges of Highway Crossing: The Case of Santasi, Kumasi.</h5>
-                    <!-- author -->
-                    <p style="color: grey"> E. Owusu Banahene, R. A. Oppong, and V. K. Quagraine (2017) </p>
-                    <p>A Paper delivered at the 6th International Conference on Infrastructure Development in Africa (ICIDA)2017 held on   12th -14th April 2017, at KNUST, Kumasi, Ghana.  </p>
+            <div class="col-md-3">
+                <div class="books-outline">
+                    <span class="num">10.</span>
+                    <div style="padding:20px;">
+                        <h5>The Challenges of Highway Crossing: The Case of Santasi, Kumasi.</h5>
+                        <!-- author -->
+                        <p style="color: grey"> E. Owusu Banahene, R. A. Oppong, and V. K. Quagraine (2017) </p>
+                        <p>A Paper delivered at the 6th International Conference on Infrastructure Development in Africa (ICIDA)2017 held on   12th -14th April 2017, at KNUST, Kumasi, Ghana.  </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3">
-            <div class="books-outline">
-                <span class="num">11.</span>
-                <div style="padding:20px;">
-                    <h5>Our Environment hanging Higgledy-Piggledy”: A Catalogue of Manifestations in Ghana.</h5>
-                    <p style="color: grey">Tagoe, M., Oppong, R. A. and Laing, O. N. (2017) </p>
-                    <p>A Paper delivered at the 6th International Conference on Infrastructure Development in Africa (ICIDA)2017 held on 12th -14th April 2017, at KNUST, Kumasi, Ghana. </p>
+            <div class="col-md-3">
+                <div class="books-outline">
+                    <span class="num">11.</span>
+                    <div style="padding:20px;">
+                        <h5>Our Environment hanging Higgledy-Piggledy”: A Catalogue of Manifestations in Ghana.</h5>
+                        <p style="color: grey">Tagoe, M., Oppong, R. A. and Laing, O. N. (2017) </p>
+                        <p>A Paper delivered at the 6th International Conference on Infrastructure Development in Africa (ICIDA)2017 held on 12th -14th April 2017, at KNUST, Kumasi, Ghana. </p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-
-</div>
+        </div> --}}
 
 
 <!-- 

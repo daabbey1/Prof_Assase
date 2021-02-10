@@ -3,8 +3,9 @@
 <head>
  <title> @yield('title')</title>
   <meta charset="utf-8">
-<!--   <link href="{{url('/'). '/style.css'}}"> -->
-<link rel="stylesheet" type="text/css" href="{{asset('style.css')}}">
+  
+  {{-- <link rel="stylesheet" type="text/css" href="{{asset('style.css')}}"> --}}
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="{{url('/').'/css/font.css'}}">
   <link rel="stylesheet" href="{{url('/').'/bootstrap-4/css/bootstrap.min.css'}}">
@@ -16,11 +17,13 @@
     <div class="container-fluid">
       <div class="row top">
         <div class="container-fluid top-content">
-          <div class="row" style="padding: 10px">
+
+          {{-- social media handle | Prof. Assasadie | Search --}}
+          <div class="row" style="padding-top: 10px">
             <div class="col-md-4 social">
-              <img src="{{url('/').'/images/fbweb.png'}}" width="20px" height="20px">
-              <img src="{{url('/').'/images/ig-web.png'}}" width="20px" height="20px">
-              <img src="{{url('/').'/images/twitter-web.png'}}" width="20px" height="20px">
+              <img src="images/fbweb.png" width="20px" height="20px">
+              <img src="images/ig-web.png" width="20px" height="20px">
+              <img src="images/twitter-web.png" width="20px" height="20px">
             </div>
             <div class="col-md-4 name">
               <p>Prof. Assasie</p>
@@ -33,9 +36,11 @@
               </form>
             </div>
           </div>
+
+          {{-- Navigation Tabs --}}
           <div class="row">
             <div class="col-md-12">
-              <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="padding: 20px;">
+              <nav class="navbar navbar-expand-md navbar-dark fixed-to" style="padding: px;">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -62,62 +67,70 @@
                 <div class="col-md-8">
                   <div class="carousel-layout">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                  <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                  <!-- Slide One - Set the background image for this slide in the line below -->
-                                  <div class="carousel-item active">
-                                    <img src="{{url('/').'/images/one.jpg'}}" style="opacity: 0.5" width="100%" height="100%">
-                                    <div class="carousel-caption d-none d-md-block">
-                                      <h4 > <span class="head-desc">SDG4UNiS</span></h4>
-                                      <p class="caro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    </div>
-                                  </div>
-                                  <!-- Slide Two - Set the background image for this slide in the line below -->
-                                  <div class="carousel-item">
-                                    <img src="{{url('/').'/images/four.jpg'}}" style="opacity: 0.5" width="100%" height="100%">
-                                    <div class="carousel-caption d-none d-md-block">
-                                       <h4 > <span class="head-desc">SDG4UNiS</span></h4>
-                                      <p class="caro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    </div>
-                                  </div>
-                                  <!-- Slide Three - Set the background image for this slide in the line below -->
-                                  <div class="carousel-item">
-                                    <img src="{{url('/').'/images/three.jpg'}}" style="opacity: 0.5" width="100%" height="100%">
-                                    <div class="carousel-caption d-none d-md-block">
-                                      < <h4 > <span class="head-desc">SDG4UNiS</span></h4>
-                                      <p class="caro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Previous</span> -->
-                                    </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" style="margin-right: -10% !important" data-slide="next">
-                                      <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="sr-only">Next</span> -->
-                                    </a>
-                              </div>    
+                      <ol class="carousel-indicators">
+                        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                      </ol>
+                      <div class="carousel-inner" role="listbox">
+                        <!-- Slide One - Set the background image for this slide in the line below -->
+                        <div class="carousel-item active">
+                          <img src="{{url('/').'/images/slide1.jpg'}}" style="opacity: 1" width="800px" height="500px">
+                          <div class="carousel-caption d-none d-md-block">
+                            {{-- <h4 > <span class="head-desc">SDG4UNiS</span></h4>
+                            <p class="caro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p> --}}
+                          </div>
+                        </div>
+                        <!-- Slide Two - Set the background image for this slide in the line below -->
+                        <div class="carousel-item">
+                          <img src="{{url('/').'/images/slide2.JPG'}}" style="opacity: 1" width="800px" height="500px">
+                          <div class="carousel-caption d-none d-md-block">
+                              {{-- <h4 > <span class="head-desc">SDG4UNiS</span></h4>
+                            <p class="caro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p> --}}
+                          </div>
+                        </div>
+                        <!-- Slide Three - Set the background image for this slide in the line below -->
+                        <div class="carousel-item">
+                          <img src="{{url('/').'/images/slide3.jpg'}}" style="opacity: 1" width="800px" height="500px">
+                          <div class="carousel-caption d-none d-md-block">
+                            {{-- <h4 > <span class="head-desc">SDG4UNiS</span></h4>
+                            <p class="caro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p> --}}
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span> -->
+                          </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" style="margin-right: -10% !important" data-slide="next">
+                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span> -->
+                          </a>
+                    </div>    
                   </div>
                 </div>
 
                 <div class="col-md-4">
                   <div class="row">
                     <div class="col-md-12">
-                      <img src="{{url('/').'/images/books.jpg'}}" width="100%" height="100%">
+                      <div class="book bg-info">
+                        
+                        <a href="#buy-book"><img src="{{url('/').'/images/books.jpg'}}" width="100%" height="100%"></a>
+                        <div class="momo">
+                          {{-- Buy Book --}}
+                          <img src="images/momo.jpg" alt="momo" width="250px" height="70px">
+                        </div>
+                      </div>
                     </div>
                     
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <video width="100%" height="100%" controls>
+                      <iframe width="100%" height="152%" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+                      </iframe>
+                      {{-- <video width="100%" height="100%" controls>
                         <source src="{{url('/').'/videos/the 100.mp4'}}" type="video/mp4">
-                      </video>
-                      <!-- <img src="{{url('/').'/images/st.jpg'}}" width="100%" height="100%"> -->
+                      </video> --}}
                     </div>
                   </div>
                 </div>
