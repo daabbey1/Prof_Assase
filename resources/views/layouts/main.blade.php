@@ -7,10 +7,10 @@
   {{-- <link rel="stylesheet" type="text/css" href="{{asset('style.css')}}"> --}}
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="{{url('/').'/css/font.css'}}">
-  <link rel="stylesheet" href="{{url('/').'/bootstrap-4/css/bootstrap.min.css'}}">
-  <script src="{{url('/'). '/bootstrap-4/js/jquery.js'}}"></script>
-  <script src="{{url('/'). '/bootstrap-4/js/bootstrap.min.js'}}"></script>
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
+  <script src="bootstrap-4/js/jquery.js"></script>
+  <script src="bootstrap-4/js/bootstrap.min.js"></script>
 
 </head>
  <body>
