@@ -187,10 +187,10 @@
           </div>
           <div class="social">
           
-            <a href="" style="margin-right: -30px"><img src="{{url('/').'/IMAGES/facebook.png'}}" width="100px" height="100px"></a>
-            <a href=""><img src="{{url('/').'/IMAGES/google.png'}}" width="60px" height="60px"></a>
-            <a href=""><img src="{{url('/').'/IMAGES/ig.png'}}" width="60px" height="60px"></a>
-            <a href=""><img src="{{url('/').'/IMAGES/twitter.png'}}" width="60px" height="60px"></a>
+            <a href="" style="margin-right: -30px"><img src="IMAGES/facebook.png" width="100px" height="100px"></a>
+            <a href=""><img src="IMAGES/google.png" width="60px" height="60px"></a>
+            <a href=""><img src="IMAGES/ig.png" width="60px" height="60px"></a>
+            <a href=""><img src="IMAGES/twitter.png" width="60px" height="60px"></a>
             
           </div>
 
